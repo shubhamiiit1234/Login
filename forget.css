@@ -1,0 +1,72 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url("image2.jpg") no-repeat;
+    background-size: cover;
+}
+a
+{
+    color: yellow;
+    text-decoration: blink;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left: 35px;
+}
+
+.forgot
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 240px;
+    height: 340px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+h2
+{
+    margin-top:15px;
+    margin-left: 10px;
+}
+
+input[type=text]
+{
+    width: 240px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play',sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px;
+    transition: border 0.5s;
+    text-align: center;
+    color: white;
+}
+
+input[type=button]
+{
+    border: none;
+    background: lightgrey;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 140px;
+    margin-left: 50px;
+}
+
+input[type=button]:hover
+{
+    background: black;
+    color: white;
+}
+
+::placeholder
+{
+	color: aliceblue;
+	opacity: 0.8;
+}

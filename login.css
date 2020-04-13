@@ -1,0 +1,72 @@
+body{
+
+	font-family: sans-serif;
+	color: #fff;
+	background: url("image1.jpg") no-repeat;
+	background-size: cover;
+}
+
+.SignIn
+{
+	background: rgba(44,62,80,0.7);
+	padding: 30px;
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 180px;
+	height: auto;
+	margin-left: auto;
+	max-width:100%
+}
+
+form
+{
+	width: 240px;
+	text-align: center;
+}
+
+input
+{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px;
+	transition: border 0.5s;
+	outline: none;
+	color: #fff;
+}
+
+input[type=button]
+{
+	margin-top: 10px;
+	margin-left: 18px;
+	border: none;
+	width: 100px;
+	background: lightgrey;
+	color: #000;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+input[type=button]:hover
+{
+	color: #fff;
+	background-color: black;
+}
+h2
+{
+	color: white;
+}
+
+::placeholder
+{
+	color: aliceblue;
+	opacity: 0.8;
+}
