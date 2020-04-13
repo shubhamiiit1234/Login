@@ -17,7 +17,7 @@
             padding: 16px;
             position: fixed;
             z-index: 1;
-            right:36%;
+            right:33%;
             top: 30px;
             font-size: 17px;
             margin-right: 60px;
@@ -52,14 +52,15 @@
 
 <body>
     <div class="forgot">
-        <form>
-            <h2 align= "center" style="color:#fff;">Forgot Password </h2>
-            <h5 style="font-size:14px; color:yellow;">Enter Email here that you used on your account. We'll send link on your email to reset your password.</h5>
+        <form action="reset.html">
+            <h2 style="color:#fff; align:center">Forgot Password </h2>
+            <h5 style="font-size:14px; color:yellow;">Enter Email and phone number here that you used on your account. We'll send link on your email to reset your password.</h5>
             <input type="text" name= "username" placeholder="Enter your email"/><br/><br/>
-            <input type="button" value= "Send" onclick="myfunction()"><br/><br/>
-            <a href="index.html" style="text-decoration: none;">Go back to HomePage</a><br/><br/>
+            
+            <a href="reset.html"><input type="button" value= "Send"></a><br/><br/><br/>
+            <p style="text-align:center;">Go Back to:<a href="index.html" class="link">Login Page</a></p><br/><br/>
 
-            <div id="snackbar" style="color:black">Link Sent to your Email Successfully!!</div>
+            <div id="snackbar" style="color:black">OTP Sent to your Email Successfully!!</div>
 
             <script>
             function myfunction() {

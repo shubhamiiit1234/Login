@@ -50,13 +50,13 @@ input[type=button]
     border: none;
     background: lightgrey;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
-    padding: 8px;
+    padding: 4px;
     border-radius: 10px;
     cursor: pointer;
-    width: 140px;
-    margin-left: 50px;
+    width: 130px;
+    margin-left: 20px;
 }
 
 input[type=button]:hover
